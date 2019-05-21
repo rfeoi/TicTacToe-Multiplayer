@@ -1,0 +1,27 @@
+{
+  "name": "tictactoe_server",
+  "version": "1.0.0",
+  "description": "Server for TicTacToe Multiplayer",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfeoi/tictactoe-multiplayer.git"
+  },
+  "keywords": [
+    "TicTacToe",
+    "game",
+    "multiplayer"
+  ],
+  "author": "strifel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rfeoi/tictactoe-multiplayer/issues"
+  },
+  "homepage": "https://github.com/rfeoi/tictactoe-multiplayer#readme",
+  "dependencies": {
+    "ws": "^7.0.0"
+  }
+}
