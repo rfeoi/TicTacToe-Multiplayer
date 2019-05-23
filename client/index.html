@@ -5,8 +5,31 @@
     <title>TicTacToe</title>
 </head>
 <body>
-<canvas id="game"></canvas>
-<script src="lib/main.js"></script>
+<h2 id="message" style="text-align: center; color: green;"></h2>
+<table>
+    <tbody id="game">
+    <tr class="row"><td class="field"></td><td class="field"></td><td class="field"></td></tr>
+    <tr class="row"><td class="field"></td><td class="field"></td><td class="field"></td></tr>
+    <tr class="row"><td class="field"></td><td class="field"></td><td class="field"></td></tr>
+    </tbody>
+</table>
+<input id="id" placeholder="123456" type="number"><button id="idSubmit">Submit</button>
 <script src="lib/connection.js"></script>
+<script src="lib/main.js"></script>
 </body>
 </html>
+<style type="text/css">
+    table {
+        border-collapse: collapse;
+        border: black solid medium;
+    }
+    .field {
+        border: black solid medium;
+        min-width: 300px;
+        min-height: 300px;
+        height: 300px;
+        width: 300px;
+        max-width: 300px;
+        max-height: 300px;
+    }
+</style>
