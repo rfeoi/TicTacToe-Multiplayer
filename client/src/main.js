@@ -11,6 +11,11 @@ function showMessage(messageText, time = 1000) {
 }
 
 document.getElementById('idSubmit').onclick = () => {
+    for (let row = 0; row < 3; row++) {
+        for (let col = 0; col < 3; col++) {
+            connection.fieldChosen(row, col, 0)
+        }
+    }
     connection.join(document.getElementById('id').value);
 };
 
